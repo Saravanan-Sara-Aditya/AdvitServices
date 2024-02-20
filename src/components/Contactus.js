@@ -17,7 +17,7 @@ const Contact = () => {
 
 
     return (
-        <Container className="my-5">
+        <Container className="my-8">
             <Row>
                 <Col md={6} data-aos="fade-left">
                     <Suspense fallback={<ImageSkeletonLoader />}>

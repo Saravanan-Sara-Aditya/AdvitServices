@@ -22,7 +22,7 @@ const CloudSupport = () => {
       <section class="py-0 overflow-hidden" id="banner" data-bs-theme="light">
         <div class="bg-holder overlay bg-img-lnd"></div>
         <div class="">
-          <div class="row flex-center pt-8 pt-lg-5 pb-lg-9 pb-xl-0 glassmorphism-bg-6">
+          <div class="row flex-center pt-8 pt-lg-8 pb-lg-9 pb-xl-0 glassmorphism-bg-6">
             <div class="col-md-11 col-lg-8 col-xl-12 pb-7 pb-xl-5 text-center text-xl-start">
               <h1 class="text-white container fw-bold">
                 Empowering Businesses with Comprehensive Cloud Support Services: Here's how AdvitServices can assist your company in leveraging cloud computing effectively
@@ -44,25 +44,25 @@ const CloudSupport = () => {
             </Suspense>
           </Col>
           <Col data-aos="fade-left" lg={6}>
-            <ol type="none" className='mt-3'>
+            
               <div className="pt-3 text-white"><h2 className="text-white">Flexibility and Scalability</h2>
                 <p className='lead container text-white opacity-75'>
                   We understand the importance of adapting quickly to changing demands. AdvitServices works closely with your team to design and implement cloud solutions that offer unparalleled flexibility and scalability, allowing your business to scale resources up or down as needed without disruption.
                 </p>
               </div>
-            </ol>
+            
           </Col>
         </Row>
 
         <Row className="pt-3 ">
           <Col data-aos="zoom-out" className='order-2 order-lg-1' lg={6}>
-            <ol type="none" className='mt-3'>
+            
               <div className="pt-3 text-white"><h2 className="text-white">Cost-Efficiency</h2>
                 <p className='lead container text-white opacity-75'>
                   With AdvitServices, you can eliminate the need for upfront infrastructure investments. Our experts optimize resource utilization and leverage cost-effective cloud solutions, helping you reduce expenses while maximizing performance.
                 </p>
               </div>
-            </ol>
+            
           </Col>
           <Col data-aos="zoom-in" className='order-1 order-lg-2' lg={6}>
             <Suspense fallback={<div>Loading...</div>}>
@@ -79,25 +79,25 @@ const CloudSupport = () => {
           </Col>
           <Col data-aos="fade-up" lg={6}>
 
-            <ol type="none" className='mt-3'>
+            
               <div className="pt-3 text-white"><h2 className="text-white">Infrastructure Management</h2>
                 <p className='lead container text-white opacity-75'>
                   Our team handles the entire spectrum of infrastructure management, from provisioning and monitoring to maintenance. We ensure that your cloud environment operates seamlessly, allowing you to focus on core business activities.
                 </p>
               </div>
-            </ol>
+            
           </Col>
         </Row>
 
         <Row className="pt-3 pb-3 ">
           <Col data-aos="zoom-in" className='order-2 order-lg-1' lg={6}>
-            <ol type="none" className='mt-3'>
+            
               <div className="pt-3 text-white"><h2 className="text-white">Migration Assistance</h2>
                 <p className='lead container text-white opacity-75'>
                   AdvitServices provides expert assistance for migrating your on-premises infrastructure and applications to the cloud. Our proven methodologies and tools ensure a smooth and efficient transition, minimizing downtime and mitigating risks.
                 </p>
               </div>
-            </ol>
+            
           </Col>
           <Col data-aos="zoom-out" className='order-1 order-lg-2' lg={6}>
             <Suspense fallback={<div>Loading...</div>}>
@@ -113,13 +113,13 @@ const CloudSupport = () => {
             </Suspense>
           </Col>
           <Col data-aos="fade-right" lg={6}>
-            <ol type="none" className='mt-3'>
+            
               <div className="pt-3 text-white"><h2 className="text-white">Security and Compliance</h2>
                 <p className='lead container text-white opacity-75'>
                   Security is our top priority. AdvitServices implements robust security measures and compliance controls to protect your data and ensure regulatory compliance. From identity and access management to threat detection and compliance auditing, we have you covered.
                 </p>
               </div>
-            </ol>
+            
           </Col>
         </Row>
       </Container >

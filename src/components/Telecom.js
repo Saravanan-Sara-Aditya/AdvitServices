@@ -18,7 +18,7 @@ const Telecom = () => {
             <section class="py-0 overflow-hidden" id="banner" data-bs-theme="light">
                 <div class="bg-holder overlay bg-img-lnd"></div>
                 <div class="">
-                    <div class="row flex-center pt-8 pt-lg-5 pb-lg-9 pb-xl-0 glassmorphism-bg-9">
+                    <div class="row flex-center pt-8 pt-lg-8 pb-lg-9 pb-xl-0 glassmorphism-bg-9">
                         <div class="col-md-11 col-lg-8 col-xl-12 pb-7 pb-xl-5 text-center text-xl-start">
                             <h1 class="text-white container fw-bold">
                                 Empowering Connectivity Through Advanced Telecom Solutions
@@ -42,13 +42,13 @@ const Telecom = () => {
                     </Col>
                     <Col lg={6}>
                         <div data-aos="fade-left" >
-                            <ol type="none" className='mt-3'>
+                            
                                 <div className="pt-4 text-white"><h2 className="text-white">5G Networks</h2>
                                     <p className='lead container text-white opacity-75'>
                                         As pioneers in 5G technology, AdvitServices is at the forefront of delivering next-generation wireless connectivity, offering unparalleled speed, reliability, and low latency for emerging applications and services.
                                     </p>
                                 </div>
-                            </ol>
+                            
                         </div>
                     </Col>
                 </Row>
@@ -56,13 +56,13 @@ const Telecom = () => {
                 <Row className="pt-4 ">
                     <Col className='order-2 order-lg-1' lg={6}>
                         <div data-aos="zoom-out">
-                            <ol type="none" className='mt-3'>
+                            
                                 <div className="pt-4 text-white"><h2 className="text-white">Software-Defined Networking (SDN)</h2>
                                     <p className='lead container text-white opacity-75'>
                                         Our SDN-enabled infrastructure empowers dynamic network management, agility, and scalability, enabling us to adapt to evolving customer demands and deliver customized solutions with ease.
                                     </p>
                                 </div>
-                            </ol>
+                            
                         </div>
                     </Col>
 
@@ -85,13 +85,13 @@ const Telecom = () => {
                     </Col>
                     <Col lg={6}>
                         <div data-aos="fade-up">
-                            <ol type="none" className='mt-3'>
+                            
                                 <div className="pt-4 text-white"><h2 className="text-white">Network Function Virtualization (NFV)</h2>
                                     <p className='lead container text-white opacity-75'>
                                         By virtualizing network functions, we optimize resource utilization, reduce costs, and accelerate service delivery, providing our clients with scalable and flexible telecom solutions tailored to their specific requirements.
                                     </p>
                                 </div>
-                            </ol>
+                            
                         </div>
                     </Col>
                 </Row>
@@ -99,13 +99,13 @@ const Telecom = () => {
                 <Row className="pt-4 pb-3 ">
                     <Col className='order-2 order-lg-1' lg={6}>
                         <div data-aos="zoom-in">
-                            <ol type="none" className='mt-3'>
+                            
                                 <div className="pt-4 text-white"><h2 className="text-white">Internet of Things (IoT)</h2>
                                     <p className='lead container text-white opacity-75'>
                                         AdvitServices harnesses the power of IoT to enable innovative services and applications, facilitating smart city initiatives, industrial automation, and connected ecosystems that drive efficiency, productivity, and sustainability
                                     </p>
                                 </div>
-                            </ol>
+                            
                         </div>
                     </Col>
                     <Col className='order-1 order-lg-2' lg={6}>

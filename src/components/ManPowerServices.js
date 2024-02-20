@@ -20,7 +20,7 @@ const ManPowerServices = () => {
             <section class="py-0 overflow-hidden" id="banner" data-bs-theme="light">
                 <div class="bg-holder overlay bg-img-lnd"></div>
                 <div class="">
-                    <div class="row flex-center pt-8 pt-lg-5 pb-lg-9 pb-xl-0 glassmorphism-bg-2">
+                    <div class="row flex-center pt-8 pt-lg-8 pb-lg-9 pb-xl-0 glassmorphism-bg-2">
                         <div class="col-md-11 col-lg-8 col-xl-12 pb-7 pb-xl-5 text-center text-xl-start">
                             <h1 class="text-white container fw-bold">
                                 AdvitServices: Your Strategic Partner in Talent Acquisition and Staffing Solutions
@@ -40,25 +40,25 @@ const ManPowerServices = () => {
                         </Suspense>
                     </Col>
                     <Col data-aos="fade-left" lg={6}>
-                        <ol type="none" className='mt-3'>
+                        
                             <div className="pt-3 text-white"><h2 className="text-white">Staff Recruiting</h2>
                                 <p className='lead container text-white opacity-75'>
                                     In an increasingly competitive marketplace, having the right talent can make all the difference between success and failure. With AdvitServices as your trusted partner, you can gain access to top-tier talent, streamline your recruitment process, and build a high-performing workforce that propels your business forward. Discover the AdvitServices advantage today and unlock the full potential of your workforce.
                                 </p>
                             </div>
-                        </ol>
+                        
                     </Col>
                 </Row>
 
                 <Row className="pt-3 ">
                     <Col data-aos="zoom-out" className='order-2 order-lg-1' lg={12}>
-                        <ol type="none" className='mt-3'>
+                        
                             <div className="pt-3 text-white"><h2 className="text-center text-white">Who We Are</h2>
                                 <p className='lead container text-white opacity-75'>
                                     AdvitServices is a leading provider of manpower solutions, specializing in recruitment, staffing, and workforce management services. With years of experience and a team of seasoned professionals, we have earned a reputation for excellence in delivering tailored solutions that address the unique staffing challenges faced by our clients.
                                 </p>
                             </div>
-                        </ol>
+                        
                     </Col>
                 </Row>
                 <div class="bg-all pb-3 white__bg-opacity-50">

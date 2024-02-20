@@ -31,13 +31,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">Network Infrastructure:</h2>
                             <p className='lead container text-white opacity-75'>
                                 We invest in high-quality equipment and infrastructure, including fiber-optic cables, routers, switches, and towers, to ensure reliable and high-speed connectivity.
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row>
         </>,
@@ -50,14 +50,14 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">Service Providers:</h2>
 
                             <p className='lead container text-white opacity-75'>
                                 AdvitServices serves as a trusted telecom service provider, offering a wide range of services such as internet connectivity, VoIP solutions, and managed network services to meet diverse customer needs.|
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row>
         </>,
@@ -70,13 +70,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">Support and Maintenance:</h2>
                             <p className='lead container text-white opacity-75'>
                                 Our dedicated teams of engineers and technicians are available round-the-clock to monitor, maintain, and optimize network performance, ensuring minimal downtime and maximum efficiency
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row >
         </>,
@@ -89,13 +89,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white">
                             <p className='lead container text-white opacity-75'>
                                 <h2 className="text-white">Data Transmission:</h2>
                                 Leveraging advanced modulation techniques, encoding schemes, and multiplexing algorithms, we ensure efficient and secure transmission of data over our networks.
                             </p>
-                        </div></ol>
+                        </div>
                 </Col>
             </Row>
         </>,
@@ -108,13 +108,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">Routing and Switching:</h2>
                             <p className='lead container text-white opacity-75'>
                                 Our skilled network engineers implement intelligent routing protocols and switching mechanisms to ensure smooth and seamless data flow across our infrastructure.
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row >
         </>,
@@ -127,13 +127,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">QoS Management:</h2>
                             <p className='lead container text-white opacity-75'>
                                 Through rigorous quality of service management, we prioritize critical traffic, optimize bandwidth utilization, and proactively address network congestion to deliver superior service quality.
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row >
         </>,
@@ -146,13 +146,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">Network Monitoring and Management:</h2>
                             <p className='lead container text-white opacity-75'>
                                 AdvitServices utilizes state-of-the-art monitoring tools and management platforms to continuously monitor network performance, analyze traffic patterns, and identify potential issues in real-time.
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row >
         </>,
@@ -165,13 +165,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">Testing Equipment:</h2>
                             <p className='lead container text-white opacity-75'>
                                 We employ advanced testing equipment and diagnostic tools to conduct thorough performance tests, signal measurements, and troubleshooting exercises, ensuring optimal network functionality.
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row >
         </>,
@@ -184,13 +184,13 @@ const Nis = () => {
                 </Col>
                 <Col lg={6}>
 
-                    <ol type="none" className='mt-3'>
+                    
                         <div className="pt-3 text-white"><h2 className="text-white">Configuration and Provisioning Systems:</h2>
                             <p className='lead container text-white opacity-75'>
                                 Our streamlined provisioning systems enable efficient configuration of network devices, rapid deployment of services, and seamless integration with customer environments.
                             </p>
                         </div>
-                    </ol>
+                    
                 </Col>
             </Row >
         </>,

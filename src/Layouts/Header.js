@@ -50,7 +50,7 @@ function TopNavBar() {
     );
 
     return (
-        <Navbar style={{ background: "#000" }} expand="lg">
+        <Navbar style={{ background: "#000",position:"fixed",zIndex:"1000",top:"0",width:"100%" }} expand="lg">
             <Container>
                 <Navbar.Brand className="text-white" href="/">AdvitServices</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

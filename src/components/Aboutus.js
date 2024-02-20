@@ -14,8 +14,8 @@ const AboutUs = () => {
     }, []);
 
     return (
-        <Container className="my-5">
-             <h1 className="fw-bold mt-3 mb-3 text-center text-white" data-aos="fade-up">ABOUT US</h1>
+        <Container className="my-7">
+            <h1 className="fw-bold mt-3 mb-3 text-center text-white" data-aos="fade-up">ABOUT US</h1>
             <Row>
                 <Col data-aos="fade-left" md={6} className="mb-4">
                     <Suspense fallback={<div>Loading...</div>}>

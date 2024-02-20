@@ -23,13 +23,13 @@ const AutoReactSwiperSlider = () => {
         </Col>
         <Col lg={6}>
 
-          <ol type="none" className='mt-3'>
+          
             <div className="pt-3 text-white"><h2 className="text-white">Customization:</h2>
               <p className="lead opacity-75">
                 One size does not fit all. Our team of expert developers works closely with you to understand your specific requirements, crafting personalized software solutions that align seamlessly with your business objectives.
               </p>
             </div>
-          </ol>
+          
         </Col>
       </Row>
     </>,
@@ -42,14 +42,14 @@ const AutoReactSwiperSlider = () => {
         </Col>
         <Col lg={6}>
 
-          <ol type="none" className='mt-3'>
+          
             <div className="pt-3 text-white"><h2 className="text-white">Cutting-Edge Technology:</h2>
 
               <p className="lead opacity-75">
                 We stay at the forefront of technological advancements, harnessing the latest tools and frameworks to develop software that is not just functional but future-proof.
               </p>
             </div>
-          </ol>
+          
         </Col>
       </Row>
     </>,
@@ -62,13 +62,13 @@ const AutoReactSwiperSlider = () => {
         </Col>
         <Col lg={6}>
 
-          <ol type="none" className='mt-3'>
+          
             <div className="pt-3 text-white"><h2 className="text-white">Scalability:</h2>
               <p className="lead opacity-75">
                 As your business grows, so should your software. Our scalable solutions ensure that your systems can adapt and expand effortlessly, accommodating increased demands without compromising performance.
               </p>
             </div>
-          </ol>
+          
         </Col>
       </Row >
     </>,
@@ -81,13 +81,13 @@ const AutoReactSwiperSlider = () => {
         </Col>
         <Col lg={6}>
 
-          <ol type="none" className='mt-3'>
+          
             <div className="pt-3 text-white">
               <h2 className="text-white">Security:</h2>
               <p className="lead opacity-75">
                 Protecting your valuable data is paramount. With robust security measures integrated into every aspect of our software development process, you can rest assured that your information remains safe from cyber threats.
               </p>
-            </div></ol>
+            </div>
         </Col>
       </Row>
     </>,
@@ -100,13 +100,13 @@ const AutoReactSwiperSlider = () => {
         </Col>
         <Col lg={6}>
 
-          <ol type="none" className='mt-3'>
+          
             <div className="pt-3 text-white"><h2 className="text-white">User Experience:</h2>
               <p className="lead opacity-75">
                 A well-designed user interface can make all the difference. We prioritize user experience, creating intuitive interfaces that enhance productivity and drive user engagement.
               </p>
             </div>
-          </ol>
+          
         </Col>
       </Row >
     </>,
