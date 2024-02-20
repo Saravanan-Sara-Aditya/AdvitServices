@@ -91,7 +91,7 @@ const Home = () => {
                     </div>
                     <div class="row mt-3 mb-3">
                         <div data-aos="zoom-in" class="col-lg-4">
-                            <Link to="/GIS&Mapping">
+                            <Link target="_parent" to="/GIS&Mapping">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -107,7 +107,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div data-aos="zoom-out" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/Sailpoint">
+                            <Link target="_parent" to="/Sailpoint">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -124,7 +124,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div data-aos="zoom-in" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/Telecommunication">
+                            <Link target="_parent" to="/Telecommunication">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -141,7 +141,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div data-aos="zoom-out" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/BuildingInfrastructure">
+                            <Link target="_parent" to="/BuildingInfrastructure">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -159,7 +159,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div data-aos="zoom-in" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/OilGas">
+                            <Link target="_parent" to="/OilGas">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -175,7 +175,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div data-aos="zoom-out" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/Utilities">
+                            <Link target="_parent" to="/Utilities">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -192,7 +192,7 @@ const Home = () => {
                         </div>
 
                         <div data-aos="zoom-in" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/WebApplicaiton">
+                            <Link target="_parent" to="/WebApplicaiton">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -209,7 +209,7 @@ const Home = () => {
                         </div>
 
                         <div data-aos="zoom-out" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/Java">
+                            <Link target="_parent" to="/Java">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>
@@ -225,7 +225,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div data-aos="zoom-in" class="col-lg-4 mt-3 mb-3 mt-lg-0">
-                            <Link to="/CloudSupport">
+                            <Link target="_parent" to="/CloudSupport">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
                                         <Suspense fallback={<ImageSkeletonLoader />}>

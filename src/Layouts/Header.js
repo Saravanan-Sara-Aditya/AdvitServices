@@ -20,7 +20,7 @@ function TopNavBar() {
                     <Link to="/Sailpoint">SailPoint Dev & Support</Link>
                 </Menu.Item>
                 <Menu.Item key="2-3">
-                    <Link to="/WebApplication">Web Dev & Support</Link>
+                    <Link to="/WebApplicaiton">Web Dev & Support</Link>
                 </Menu.Item>
                 <Menu.Item key="2-4">
                     <Link to="/CloudSupport">Infra Cloud Support</Link>
