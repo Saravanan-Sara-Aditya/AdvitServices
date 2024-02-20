@@ -19,12 +19,12 @@ const Contact = () => {
     return (
         <Container className="my-5">
             <Row>
-                <Col data-aos="fade-left">
+                <Col md={6} data-aos="fade-left">
                     <Suspense fallback={<ImageSkeletonLoader />}>
                         <LazyImage src={contact} />
                     </Suspense>
                 </Col>
-                <Col className='text-white' data-aos="fade-right">
+                <Col md={6} className='mt-3 mt-lg-0 text-white' data-aos="fade-right">
                     <h2 className='text-white'>India Office Address</h2>
                     <p className='lead opacity-75'>Plot no 104, Road no 17, Gayatri Nagar,<br />Hyderabad, 500097.</p>
                     <h2 className='text-white'>USA Office Address</h2>

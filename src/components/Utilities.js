@@ -86,10 +86,10 @@ const Utilities = () => {
           </div>
         </div>
       </div>
-      <div data-aos="zoom-out" className='container pt-4'>
+      <div  className='container pt-4'>
         <h2 className="text-white text-center mb-3">Methods</h2>
         <div className="row">
-          <div className="col-sm-6 col-lg-4 mb-4">
+          <div data-aos="zoom-out" className="col-sm-6 col-lg-4 mb-4">
             <div style={{ height: "220px", background: "#ff8000", color: "#fff" }} className="card">
               <div className="card-body">
                 <div className="card-title">Preventive Maintenance</div>
@@ -144,8 +144,8 @@ const Utilities = () => {
         {/*  */}
           <h2 className="text-white text-center mb-3">What We Do</h2>
 
-        <div data-aos="fade-down" className="row">
-          <div className="col-sm-6 col-lg-4 ">
+        <div  className="row">
+          <div data-aos="fade-down" className="col-sm-6 col-lg-4 ">
             <div style={{ height: "500px" }} class="card mt-3 mb-3 overflow-hidden" >
               <div style={{ height: "300px" }} class="card-img-top">
                 <Suspense fallback={<div>Loading...</div>}>
@@ -158,7 +158,7 @@ const Utilities = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-4 ">
+          <div data-aos="fade-down" className="col-sm-6 col-lg-4 ">
             <div style={{ height: "500px" }} class="card mt-3 mb-3 overflow-hidden" >
               <div style={{ height: "300px" }} class="card-img-top">
                 <Suspense fallback={<div>Loading...</div>}>
@@ -172,7 +172,7 @@ const Utilities = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-4">
+          <div data-aos="fade-down" className="col-sm-6 col-lg-4">
             <div style={{ height: "500px" }} class="card mt-3 mb-3 overflow-hidden" >
               <div style={{ height: "300px" }} class="card-img-top">
                 <Suspense fallback={<div>Loading...</div>}>
@@ -186,7 +186,7 @@ const Utilities = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-4">
+          <div data-aos="fade-down" className="col-sm-6 col-lg-4">
             <div style={{ height: "500px" }} class="card mt-3 mb-3 overflow-hidden" >
               <div style={{ height: "300px" }} class="card-img-top">
                 <Suspense fallback={<div>Loading...</div>}>
@@ -200,7 +200,7 @@ const Utilities = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-4 ">
+          <div data-aos="fade-down" className="col-sm-6 col-lg-4 ">
             <div style={{ height: "500px" }} class="card mt-3 mb-3 overflow-hidden" >
               <div style={{ height: "300px" }} class="card-img-top">
                 <Suspense fallback={<div>Loading...</div>}>

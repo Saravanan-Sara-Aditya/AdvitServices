@@ -3,10 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faNetworkWired, faCogs, faShieldAlt, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import softwareServices from '../assets/images/staff_Network.jpg'
-import Mobile from '../assets/images/QA.jpg'
-import ana from '../assets/images/Domain-knowledge.jpeg'
-import mps from '../assets/images/staff_Network.jpg'
-
 import 'aos/dist/aos.css'; // Import AOS CSS file for styles
 import AOS from 'aos';
 import LazyImage from './LazyImage';
@@ -16,7 +12,7 @@ const ManPowerServices = () => {
     useEffect(() => {
         // Initialize AOS when component mounts
         AOS.init({ duration: 1000 }); // Set the duration of animation
-    }, []);
+    }, [AOS]);
 
     return (
         <div className="software-services">

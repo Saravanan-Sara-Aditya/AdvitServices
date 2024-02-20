@@ -33,71 +33,87 @@ const Telecom = () => {
             <Container>
 
                 <Row className="pt-3 ">
-                    <Col data-aos="fade-right" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={softwareServices} />
-                        </Suspense>
+                    <Col lg={6}>
+                        <div data-aos="fade-right">
+                            <Suspense fallback={<div>Loading...</div>}>
+                                <LazyImage src={softwareServices} />
+                            </Suspense>
+                        </div>
                     </Col>
-                    <Col data-aos="fade-left" lg={6}>
-                        <ol type="none" className='mt-3'>
-                            <div className="pt-4 text-white"><h2 className="text-white">5G Networks</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    As pioneers in 5G technology, AdvitServices is at the forefront of delivering next-generation wireless connectivity, offering unparalleled speed, reliability, and low latency for emerging applications and services.
-                                </p>
-                            </div>
-                        </ol>
+                    <Col lg={6}>
+                        <div data-aos="fade-left" >
+                            <ol type="none" className='mt-3'>
+                                <div className="pt-4 text-white"><h2 className="text-white">5G Networks</h2>
+                                    <p className='lead container text-white opacity-75'>
+                                        As pioneers in 5G technology, AdvitServices is at the forefront of delivering next-generation wireless connectivity, offering unparalleled speed, reliability, and low latency for emerging applications and services.
+                                    </p>
+                                </div>
+                            </ol>
+                        </div>
                     </Col>
                 </Row>
 
                 <Row className="pt-4 ">
-                    <Col data-aos="zoom-out" className='order-2 order-lg-1' lg={6}>
-                        <ol type="none" className='mt-3'>
-                            <div className="pt-4 text-white"><h2 className="text-white">Software-Defined Networking (SDN)</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    Our SDN-enabled infrastructure empowers dynamic network management, agility, and scalability, enabling us to adapt to evolving customer demands and deliver customized solutions with ease.
-                                </p>
-                            </div>
-                        </ol>
+                    <Col className='order-2 order-lg-1' lg={6}>
+                        <div data-aos="zoom-out">
+                            <ol type="none" className='mt-3'>
+                                <div className="pt-4 text-white"><h2 className="text-white">Software-Defined Networking (SDN)</h2>
+                                    <p className='lead container text-white opacity-75'>
+                                        Our SDN-enabled infrastructure empowers dynamic network management, agility, and scalability, enabling us to adapt to evolving customer demands and deliver customized solutions with ease.
+                                    </p>
+                                </div>
+                            </ol>
+                        </div>
                     </Col>
-                    <Col data-aos="zoom-in" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={Mobile} />
-                        </Suspense>
+
+                    <Col className='order-1 order-lg-2' lg={6}>
+                        <div data-aos="zoom-in" >
+                            <Suspense fallback={<div>Loading...</div>}>
+                                <LazyImage src={Mobile} />
+                            </Suspense>
+                        </div>
                     </Col>
                 </Row>
 
                 <Row className="pt-4 pb-3 ">
-                    <Col data-aos="fade-down" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={res} />
-                        </Suspense>
+                    <Col lg={6}>
+                        <div data-aos="fade-down">
+                            <Suspense fallback={<div>Loading...</div>}>
+                                <LazyImage src={res} />
+                            </Suspense>
+                        </div>
                     </Col>
-                    <Col data-aos="fade-up" lg={6}>
-
-                        <ol type="none" className='mt-3'>
-                            <div className="pt-4 text-white"><h2 className="text-white">Network Function Virtualization (NFV)</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    By virtualizing network functions, we optimize resource utilization, reduce costs, and accelerate service delivery, providing our clients with scalable and flexible telecom solutions tailored to their specific requirements.
-                                </p>
-                            </div>
-                        </ol>
+                    <Col lg={6}>
+                        <div data-aos="fade-up">
+                            <ol type="none" className='mt-3'>
+                                <div className="pt-4 text-white"><h2 className="text-white">Network Function Virtualization (NFV)</h2>
+                                    <p className='lead container text-white opacity-75'>
+                                        By virtualizing network functions, we optimize resource utilization, reduce costs, and accelerate service delivery, providing our clients with scalable and flexible telecom solutions tailored to their specific requirements.
+                                    </p>
+                                </div>
+                            </ol>
+                        </div>
                     </Col>
                 </Row>
 
                 <Row className="pt-4 pb-3 ">
-                    <Col data-aos="zoom-in" className='order-2 order-lg-1' lg={6}>
-                        <ol type="none" className='mt-3'>
-                            <div className="pt-4 text-white"><h2 className="text-white">Internet of Things (IoT)</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices harnesses the power of IoT to enable innovative services and applications, facilitating smart city initiatives, industrial automation, and connected ecosystems that drive efficiency, productivity, and sustainability
-                                </p>
-                            </div>
-                        </ol>
+                    <Col className='order-2 order-lg-1' lg={6}>
+                        <div data-aos="zoom-in">
+                            <ol type="none" className='mt-3'>
+                                <div className="pt-4 text-white"><h2 className="text-white">Internet of Things (IoT)</h2>
+                                    <p className='lead container text-white opacity-75'>
+                                        AdvitServices harnesses the power of IoT to enable innovative services and applications, facilitating smart city initiatives, industrial automation, and connected ecosystems that drive efficiency, productivity, and sustainability
+                                    </p>
+                                </div>
+                            </ol>
+                        </div>
                     </Col>
-                    <Col data-aos="zoom-out" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={pms} />
-                        </Suspense>
+                    <Col className='order-1 order-lg-2' lg={6}>
+                        <div data-aos="zoom-out">
+                            <Suspense fallback={<div>Loading...</div>}>
+                                <LazyImage src={pms} />
+                            </Suspense>
+                        </div>
                     </Col>
                 </Row>
                 <h2 className="text-center mt-5 mb-3 text-white">What We Do</h2>

@@ -83,8 +83,8 @@ const AutoReactSwiperSlider = () => {
 
           <ol type="none" className='mt-3'>
             <div className="pt-3 text-white">
+              <h2 className="text-white">Security:</h2>
               <p className="lead opacity-75">
-                <h2 className="text-white">Security:</h2>
                 Protecting your valuable data is paramount. With robust security measures integrated into every aspect of our software development process, you can rest assured that your information remains safe from cyber threats.
               </p>
             </div></ol>

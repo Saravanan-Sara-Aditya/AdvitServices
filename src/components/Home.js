@@ -11,7 +11,7 @@ import Mobile1 from "../assets/images/MobileApp.jpg"
 import Carousel from './Carousel'
 import AutoReactSwiperSlider from './WhyChooseUs'
 
-import 'aos/dist/aos.css'; // Import AOS CSS file for styles
+// import 'aos/dist/aos.css'; // Import AOS CSS file for styles
 import AOS from 'aos';
 import { Link } from 'react-router-dom'
 import LazyImage from './LazyImage'
@@ -26,20 +26,20 @@ const Home = () => {
 
 
     return (
-        <div>
-            <section class="py-0 overflow-hidden" id="banner" data-bs-theme="light">
+        <div className="">
+            <div class="py-0 overflow-hidden" id="banner" data-bs-theme="light">
                 {/* <div class="bg-holder overlay bg-img-lnd"></div> */}
-                <div data-aos="fade-down" class="">
+                <div class="">
                     <Carousel />
                 </div>
-            </section>
+            </div>
 
             <div class="bg-all pt-2 pb-5 white__bg-opacity-50">
                 <Container>
                     <Row className="pt-3">
                         <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHO WE ARE</h1>
                         <Col lg={6} data-aos="fade-left">
-                            <Suspense fallback={<ImageSkeletonLoader/>}>
+                            <Suspense fallback={<ImageSkeletonLoader />}>
                                 <LazyImage src={softwareServices} />
                             </Suspense>
                         </Col>
@@ -73,7 +73,7 @@ const Home = () => {
                             </p>
                         </Col>
                         <Col data-aos="fade-down" className='order-1 order-lg-2' lg={6}>
-                            <Suspense fallback={<ImageSkeletonLoader/>}>
+                            <Suspense fallback={<ImageSkeletonLoader />}>
                                 <LazyImage src={Mobile} />
                             </Suspense>
                         </Col>
@@ -94,7 +94,7 @@ const Home = () => {
                             <Link to="/GIS&Mapping">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={AI} />
                                         </Suspense>
                                     </div>
@@ -110,7 +110,7 @@ const Home = () => {
                             <Link to="/Sailpoint">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={"https://media.istockphoto.com/id/1488298008/photo/young-businessman-chatting-with-a-smart-ai-or-artificial-intelligence-using-an-artificial.jpg?s=612x612&w=0&k=20&c=ZPd9mkDEn2r_RseQFzkPWLdz1rCWvG_ZT1qACmDjwKw="} />
                                         </Suspense>
                                     </div>
@@ -127,7 +127,7 @@ const Home = () => {
                             <Link to="/Telecommunication">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={"https://media.istockphoto.com/id/1363385264/photo/telecommunication-tower-for-2g-3g-4g-5g-network-during-sunset-antenna-bts-microwave-repeater.jpg?b=1&s=612x612&w=0&k=20&c=hjx7n2f8jHYqxOobkMBxc3AAMg8xl2-7wNks2KLMqrc="} />
                                         </Suspense>
                                     </div>
@@ -144,7 +144,7 @@ const Home = () => {
                             <Link to="/BuildingInfrastructure">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={"https://media.istockphoto.com/id/493107912/photo/dubai-construction.jpg?b=1&s=612x612&w=0&k=20&c=qLsWK_y1FGN6sla7doXw83K5vYRb9rbVTMPh1jabZzE="} />
                                         </Suspense>
                                     </div>
@@ -162,7 +162,7 @@ const Home = () => {
                             <Link to="/OilGas">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={"https://media.istockphoto.com/id/533552151/photo/oil-rig.jpg?b=1&s=612x612&w=0&k=20&c=_KQgOK-k4cBbO-HB1zhFgYI3UglbPVM039la5aqibC4="} />
                                         </Suspense>
                                     </div>
@@ -178,7 +178,7 @@ const Home = () => {
                             <Link to="/Utilities">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={utilities} />
                                         </Suspense>
                                     </div>
@@ -195,7 +195,7 @@ const Home = () => {
                             <Link to="/WebApplicaiton">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={Mobile1} />
                                         </Suspense>
                                     </div>
@@ -212,7 +212,7 @@ const Home = () => {
                             <Link to="/Java">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={java} />
                                         </Suspense>
                                     </div>
@@ -228,7 +228,7 @@ const Home = () => {
                             <Link to="/CloudSupport">
                                 <div class="card bg-black text-white overflow-hidden" data-bs-theme="light" style={{ maxWidth: "30rem" }}>
                                     <div class="card-img-top" style={{ filter: "brightness(0.5)" }}>
-                                        <Suspense fallback={<ImageSkeletonLoader/>}>
+                                        <Suspense fallback={<ImageSkeletonLoader />}>
                                             <LazyImage class="img-fluid" src={"https://media.istockphoto.com/id/1352203098/photo/devops-software-development-and-it-operations-engineer-working-in-agile-methodology.jpg?b=1&s=612x612&w=0&k=20&c=N66pVJ4UKngFElD7U106XTPLiiuWBrxE7st50c6Cuic="} />
                                         </Suspense>
                                     </div>
@@ -255,11 +255,11 @@ const Home = () => {
                 {/* <App /> */}
             </div>
 
-            {/* <section class="bg-white pb-0 pt-0" data-bs-theme="light">
+            {/* <div class="bg-white pb-0 pt-0" data-bs-theme="light">
                 <div class="bg-holder overlay" ></div>
                 
                 <Testimonials />
-            </section> */}
+            </div> */}
 
         </div >
     )

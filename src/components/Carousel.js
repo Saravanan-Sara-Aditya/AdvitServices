@@ -51,7 +51,7 @@ const SlideshowBanner = () => {
             <LazyImage src={slide.image} alt={slide.caption} />
           </Suspense>
           <h1 className="d-none d-lg-block caption">{slide.caption}</h1>
-          <h1 className="d-lg-none d-block">{slide.caption}</h1>
+          <h1 className="d-lg-none caption1 d-block">{slide.caption}</h1>
 
         </div>
       ))}
@@ -87,6 +87,16 @@ const SlideshowBanner = () => {
           transform: translate(-50%, -50%);
           color: white;
           font-size: 60px; /* Changed to H1 font size */
+          font-weight: bold;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          
+        }
+        .caption1 {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
           font-weight: bold;
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
           
