@@ -1,13 +1,12 @@
 import React, { Suspense, useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import res from '../assets/images/GS.png'
 import softwareServices from '../assets/images/GIS_Catrography.jpg'
-import Mobile from '../assets/images/GismaP.jpg'
-import ana from '../assets/images/GIS-ADV.png'
-import pms from '../assets/images/PACT.jpeg'
 import 'aos/dist/aos.css'; // Import AOS CSS file for styles
 import AOS from 'aos';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faTools, faProjectDiagram, faCogs, faTasks } from '@fortawesome/free-solid-svg-icons';
 import LazyImage from './LazyImage';
+import ImageSkeletonLoader from '../Layouts/Skeleton';
 
 const Gis = () => {
 
@@ -28,100 +27,59 @@ const Gis = () => {
                                 Transforming Geospatial Solutions
                             </h1>
                             <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
-                                At AdvitServices, we are committed to delivering cutting-edge GIS and mapping services tailored to meet the diverse needs of our clients across various industries. Our approach encompasses a comprehensive work structure, innovative methods, state-of-the-art tools, and a skilled team equipped with advanced technologies.
+                                At ADV, we are committed to delivering cutting-edge GIS and mapping services tailored to meet the diverse needs of our clients across various industries. Our approach encompasses a comprehensive work structure, innovative methods, state-of-the-art tools, and a skilled team equipped with advanced technologies.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
             <Container>
-                <Row className="pt-3 ">
-                    <Col data-aos="fade-right" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
+                <Row className="pt-3 mt-3 mb-3 ">
+                    {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
+                    <Col lg={6} data-aos="fade-left">
+                        <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={softwareServices} />
                         </Suspense>
                     </Col>
-                    <Col data-aos="fade-left" lg={6}>
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white">Process Implementation</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    At AdvitServices, we have structured our workflow to ensure seamless integration of geospatial solutions into our clients' projects. Our teams consist of experienced GIS analysts, cartographers, data scientists, and software developers who collaborate closely to deliver exceptional results. </p>
-                            </div>
-                        
+                    <Col lg={6} >
+                        <div data-aos="fade-right">
+                            <FontAwesomeIcon icon={faProjectDiagram} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Workflow Structure
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>At ADV, our teams collaborate seamlessly, integrating geospatial solutions into clients' projects with experienced GIS analysts, cartographers, data scientists, and software developers.</p>
+                        </div>
+                        <div data-aos="fade-right">
+                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Handling Techniques
+                            </h4>
+                            <p className='lead opacity-75 text-white'>Our methodology focuses on efficient data collection, meticulous management, robust spatial analysis, and captivating visualization using traditional surveying, remote sensing, and advanced analytics.</p>
+                        </div>
+                        <div data-aos="fade-right">
+                            <FontAwesomeIcon icon={faCogs} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Advanced Software
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>
+                                Leveraging the latest GIS software like Esri's ArcGIS, QGIS, and open-source platforms, along with advanced remote sensing tools such as ENVI and Erdas Imagine, we ensure precise analysis and development of interactive maps.
+                            </p>
+                        </div>
+                        <div data-aos="fade-right">
+                            <FontAwesomeIcon icon={faTasks} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Performed Activities
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>
+                                Our team excels in spatial analysis, data management, programming, cartography, and effective communication, delivering insightful analyses and visually appealing maps tailored to clients' needs.
+                            </p>
+                        </div>
                     </Col>
                 </Row>
-
-                <Row className="pt-3 ">
-                    <Col data-aos="zoom-out" className='order-2 order-lg-1' lg={6}>
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white">Handling Techniques</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    Our methodology revolves around efficient data collection, meticulous data management, robust spatial analysis, and captivating visualization. We employ a combination of traditional surveying techniques, remote sensing technologies, and advanced analytics to extract meaningful insights from spatial data.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                    <Col data-aos="zoom-in" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={Mobile} />
-                        </Suspense>
-                    </Col>
-                </Row>
-
-                <Row className="pt-3 pb-3 ">
-                    <Col data-aos="fade-down" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={res} />
-                        </Suspense>
-                    </Col>
-                    <Col data-aos="fade-up" lg={6}>
-
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white">Advanced Softwares</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices leverages the latest GIS software, including Esri's ArcGIS suite, QGIS, and open-source platforms like GRASS GIS. Additionally, we utilize cutting-edge remote sensing software such as ENVI and Erdas Imagine for precise analysis of satellite and aerial imagery. Our proficiency extends to web mapping tools like Google Maps API, Mapbox, and Leaflet, enabling us to develop interactive and user-friendly maps.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                </Row>
-
-                <Row className="pt-3 pb-3 ">
-                    <Col data-aos="zoom-in" className='order-2 order-lg-1' lg={6}>
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white">Performed Activities</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    Our team possesses a diverse skill set encompassing spatial analysis, data management, programming, cartography, and effective communication. With a deep understanding of spatial concepts and advanced statistical techniques, we deliver insightful analyses and visually appealing maps tailored to our clients' requirements.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                    <Col data-aos="zoom-out" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={pms} />
-                        </Suspense>
-                    </Col>
-                </Row>
-
-                <Row className="pt-3 pb-3 ">
-                    <Col data-aos="fade-left" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={ana} />
-                        </Suspense>
-                    </Col>
-                    <Col data-aos="fade-right" lg={6}>
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white">Advanced Technologies</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices is at the forefront of innovation, integrating advanced technologies to enhance our GIS and mapping services. We harness the power of machine learning and AI to automate repetitive tasks, conduct image classification, and develop predictive models for spatial forecasting. Additionally, our expertise in big data analytics allows us to handle large-scale geospatial datasets efficiently. We leverage cloud computing platforms such as AWS, GCP, and Azure to deliver scalable and flexible GIS solutions to our clients. Moreover, we explore emerging technologies like augmented reality (AR) and virtual reality (VR) to provide immersive visualization experiences and IoT for real-time data collection and monitoring.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                </Row>
-            </Container >
+            </Container>
         </div>
     );
 };
 
 export default Gis;
+

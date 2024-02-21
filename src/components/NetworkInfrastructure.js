@@ -54,7 +54,7 @@ const Nis = () => {
                         <div className="pt-3 text-white"><h2 className="text-white">Service Providers:</h2>
 
                             <p className='lead container text-white opacity-75'>
-                                AdvitServices serves as a trusted telecom service provider, offering a wide range of services such as internet connectivity, VoIP solutions, and managed network services to meet diverse customer needs.|
+                                ADV serves as a trusted telecom service provider, offering a wide range of services such as internet connectivity, VoIP solutions, and managed network services to meet diverse customer needs.|
                             </p>
                         </div>
                     
@@ -149,7 +149,7 @@ const Nis = () => {
                     
                         <div className="pt-3 text-white"><h2 className="text-white">Network Monitoring and Management:</h2>
                             <p className='lead container text-white opacity-75'>
-                                AdvitServices utilizes state-of-the-art monitoring tools and management platforms to continuously monitor network performance, analyze traffic patterns, and identify potential issues in real-time.
+                                ADV utilizes state-of-the-art monitoring tools and management platforms to continuously monitor network performance, analyze traffic patterns, and identify potential issues in real-time.
                             </p>
                         </div>
                     

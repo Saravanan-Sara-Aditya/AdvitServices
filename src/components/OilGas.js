@@ -8,6 +8,9 @@ import pms from '../assets/images/Python-Vs-R.jpg'
 import 'aos/dist/aos.css'; // Import AOS CSS file for styles
 import AOS from 'aos';
 import LazyImage from './LazyImage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ImageSkeletonLoader from '../Layouts/Skeleton';
+import { faGlobe, faToolbox, faTools, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 
 const OilGas = () => {
@@ -29,91 +32,56 @@ const OilGas = () => {
                                 Revolutionizing Oil and Gas Operations Through Geospatial Expertise
                             </h1>
                             <p class="lead container text-capitalize text-white opacity-75">
-                                AdvitServices stands at the forefront of innovation in the oil and gas industry, leveraging cutting-edge geospatial technologies to deliver unparalleled solutions. With a deep understanding of geospatial methods, tools, and skills, AdvitServices transforms the way oil and gas operations are conducted, driving efficiency, accuracy, and sustainability.
+                                ADV stands at the forefront of innovation in the oil and gas industry, leveraging cutting-edge geospatial technologies to deliver unparalleled solutions. With a deep understanding of geospatial methods, tools, and skills, ADV transforms the way oil and gas operations are conducted, driving efficiency, accuracy, and sustainability.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
             <Container>
-                <Row className="pt-3 ">
-                    <Col data-aos="fade-right" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <div className='bg-white'>
+                <Row className="pt-3 mt-3 mb-3 pb-3">
+                    {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
+                    <Col lg={6} data-aos="fade-right">
+                        <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={softwareServices} />
-                            </div>
                         </Suspense>
                     </Col>
-                    <Col data-aos="fade-left" lg={6}>
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white">Expert Work Structure</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices operates with a team of seasoned geospatial professionals who collaborate seamlessly with geologists, geophysicists, and engineers.
-                                    Our experts bring diverse skill sets to the table, ensuring comprehensive analysis and informed decision-making at every stage of the exploration and production lifecycle.
-                                </p>
-                            </div>
+                    <Col lg={6} >
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faUsers} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            Expert Work Structure
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>Seasoned geospatial professionals collaborate seamlessly with geologists, geophysicists, and engineers for comprehensive analysis throughout projects.</p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faGlobe} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            Advanced Methods
+                            </h4>
+                            <p className='lead opacity-75 text-white'>Using GIS and remote sensing, we provide deep spatial analysis and valuable insights for site selection and environmental monitoring.</p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faToolbox} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Cutting-Edge Tools
+                            </h4>
+                            <p className='lead opacity-75 text-white '>
+                            Leveraging ArcGIS, Petrel, and open-source platforms, we deliver tailored solutions for advanced GIS analysis and reservoir planning.
+                            </p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            Essential Skills
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>
+                            Proficient in spatial data management, Python, and R, our team delivers precise reservoir characterization and optimization strategies.
+                            </p>
+                        </div>
                         
                     </Col>
                 </Row>
-
-                <Row className="pt-3 ">
-                    <Col data-aos="zoom-out" className='order-2 order-lg-1' lg={6}>
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white"> Advanced Methods</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    Leveraging Geographic Information Systems (GIS), AdvitServices conducts in-depth spatial analysis, mapping, and visualization of geological and geophysical data.
-                                    Through remote sensing techniques, including satellite imagery and aerial surveys, we provide valuable insights into surface features and environmental impacts, aiding in site selection and environmental monitoring.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                    <Col data-aos="zoom-in" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={"https://media.istockphoto.com/id/533552151/photo/oil-rig.jpg?b=1&s=612x612&w=0&k=20&c=_KQgOK-k4cBbO-HB1zhFgYI3UglbPVM039la5aqibC4="} />
-                        </Suspense>
-                    </Col>
-                </Row>
-
-                <Row className="pt-3 pb-3 ">
-                    <Col data-aos="fade-down" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={res} />
-                        </Suspense>
-                    </Col>
-                    <Col data-aos="fade-up" lg={6}>
-
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white"> Cutting-Edge Tools</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices harnesses industry-leading software packages such as ArcGIS, Petrel, and GeoGraphix to perform advanced GIS analysis, reservoir modeling, and well planning.
-                                    We also utilize open-source platforms like QGIS and GRASS GIS, ensuring flexibility and cost-effectiveness in our solutions.
-                                    With specialized software tailored for oil and gas workflows, such as Landmark's DecisionSpace® Geosciences suite and Schlumberger's Petrel E&P software, AdvitServices delivers customized solutions that meet the unique needs of each project.
-
-                                </p>
-                            </div>
-                        
-                    </Col>
-                </Row>
-
-                <Row className="pt-3 pb-3 ">
-                    <Col data-aos="zoom-in" className='order-2 order-lg-1' lg={6}>
-                        
-                            <div className="pt-3 text-white"><h2 className="text-white"> Essential Skills</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    Our team possesses expertise in spatial data management, ensuring the efficient organization and processing of complex datasets critical to oil and gas operations.
-                                    Proficiency in programming languages such as Python and R empowers us to automate workflows, develop custom tools, and perform advanced spatial analysis, enhancing efficiency and accuracy.
-                                    With a deep understanding of geostatistics and domain knowledge in geology and reservoir engineering, AdvitServices delivers precise reservoir characterization and optimization strategies.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                    <Col data-aos="zoom-out" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={pms} />
-                        </Suspense>
-                    </Col>
-                </Row>
-
             </Container >
         </div>
     );

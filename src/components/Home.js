@@ -10,7 +10,8 @@ import Mobile from "../assets/images/target.jpg"
 import Mobile1 from "../assets/images/MobileApp.jpg"
 import Carousel from './Carousel'
 import AutoReactSwiperSlider from './WhyChooseUs'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBullseye, faHandshake, faCut, faGraduationCap, faCog, faAward, faHandshakeAlt, faLightbulb, faTools, faStar } from '@fortawesome/free-solid-svg-icons';
 // import 'aos/dist/aos.css'; // Import AOS CSS file for styles
 import AOS from 'aos';
 import { Link } from 'react-router-dom'
@@ -37,25 +38,36 @@ const Home = () => {
             <div class="bg-all pt-2 pb-5 white__bg-opacity-50">
                 <Container>
                     <Row className="pt-3">
-                        <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHO WE ARE</h1>
+                        <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1>
                         <Col lg={6} data-aos="fade-left">
                             <Suspense fallback={<ImageSkeletonLoader />}>
                                 <LazyImage src={softwareServices} />
                             </Suspense>
                         </Col>
                         <Col lg={6} data-aos="fade-right">
-                            <p className="text-white mt-3 mt-lg-0 lead opacity-75">
-                                Welcome to AdvitServices, where our foundation is built on the core principles of prioritizing our customers and fostering excellence in all that we do.
-                            </p>
-                            <p className="text-white lead opacity-75">
-                                At AdvitServices, we believe in putting the customer first, always. Our commitment to "Customer First" ensures that we proactively engage with our clients as an integrated solution provider, working collaboratively across the entire value chain of their business. We understand that every client is unique, which is why our team of industry experts and leaders are dedicated to providing tailor-made solutions that address the specific needs and challenges of each customer.
-                            </p>
-                            <p className="text-white lead opacity-75">
-                                Our goal is to empower our clients to achieve maximum benefits and reach their business objectives. Whether it's enhancing operational efficiency or driving functional excellence, we work tirelessly to deliver results that surpass expectations.
-                            </p>
-                            <p className="text-white lead opacity-75">
-                                With AdvitServices, you can trust that you're partnering with a company that is dedicated to your success. We're here to support you every step of the way, offering innovative solutions and unparalleled expertise to help you thrive in today's competitive landscape. Welcome to a new era of excellence with AdvitServices.
-                            </p>
+                            <div>
+                                <FontAwesomeIcon icon={faGraduationCap} size='3x' color='#fff' />
+                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                    Industry Experience
+                                </h4>
+                                <p className='lead opacity-75 text-white d-'>Leveraging years of industry experience and specialized knowledge, our team of experts stays abreast of emerging trends and best practices to provide informed guidance and strategic insights.</p>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faLightbulb} size='3x' color='#fff' />
+                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                    Innovation:
+                                </h4>
+                                <p className='lead opacity-75 text-white'>Innovation is ingrained in our DNA, driving us to constantly explore new ideas, technologies, and methodologies to stay ahead of the curve and anticipate future market trends.</p>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faCog} size='3x' color='#fff' />
+                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                    Operational Efficiency:
+                                </h4>
+                                <p className='lead opacity-75 text-white d-'>
+                                    We streamline operations and optimize workflows to enhance efficiency, reduce costs, and maximize resource utilization, ultimately enabling our clients to achieve greater agility and scalability.
+                                </p>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
@@ -66,11 +78,29 @@ const Home = () => {
                     <h1 data-aos="fade-left" class="fw-bold mt-3 text-end d-lg-block d-none text-uppercase mb-3 text-white">Our Mission</h1>
                     <h1 data-aos="fade-left" class="fw-bold mt-3 text-start d-lg-none d-block text-uppercase mb-3 text-white">Our Mission</h1>
                     <Row className="pt-3">
-                        {/* <h2 className='text-center pt-3 pb-3'>Our Mission</h2> */}
                         <Col data-aos="fade-up" className='order-2 order-lg-1' lg={6}>
-                            <p className="text-white mt-3 mt-lg-0  lead opacity-75">
-                                At AdvitServices, we are dedicated to prioritizing our customers above all else, adhering to the foundational principles of "Customer First" and "Enabling Excellence." We proactively engage with our clients as an integrated solution provider, guiding them across the entirety of their business value chain to ensure they derive maximum benefits and successfully achieve their objectives. With a team of industry experts and leaders at the helm, we craft bespoke solutions tailored to each client's unique needs, empowering them to attain both operational efficiency and functional excellence. Our mission is to relentlessly support our clients on their journey towards success, driving innovation, and fostering enduring partnerships along the way.
-                            </p>
+                            <div>
+                                <FontAwesomeIcon icon={faBullseye} size='3x' color='#fff' />
+                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                    Customer Focus:
+                                </h4>
+                                <p className='lead opacity-75 text-white'>We prioritize our customers' needs by proactively engaging with them and providing personalized solutions tailored to their requirements.</p>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faHandshake} size='3x' color='#fff' />
+                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                    Collaboration:
+                                </h4>
+                                <p className='lead opacity-75 text-white d-'>Collaboration is at the heart of our methodology, as we believe in working closely with our clients as integrated partners to achieve mutual success.</p>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faStar} size='3x' color='#fff' />
+                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                    Success:
+                                </h4>
+                                <p className='lead opacity-75 text-white d-'>We measure our success by the achievements of our clients, celebrating their milestones and victories as our own and striving to be catalysts for their continued growth and prosperity.</p>
+                            </div>
+
                         </Col>
                         <Col data-aos="fade-down" className='order-1 order-lg-2' lg={6}>
                             <Suspense fallback={<ImageSkeletonLoader />}>
@@ -83,7 +113,7 @@ const Home = () => {
             {/*  */}
             <div class="bg-all pb-3 white__bg-opacity-50">
                 <div class="container">
-                    <h1 data-aos="fade-right" class="fw-bold mt-3 text-white">WHAT WE DO</h1>
+                    <h1 data-aos="fade-right" class="fw-bold mt-3 text-white">OUR SERVICES</h1>
                     <div class="row">
                         <div class="col text-center">
                             {/* <h4 class="lead mb-0 text-uppercase text-white">Our Services</h4> */}

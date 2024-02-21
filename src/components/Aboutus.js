@@ -4,6 +4,8 @@ import founder from "../assets/images/training.jpg"
 import 'aos/dist/aos.css'; // Import AOS CSS file for styles
 import AOS from 'aos';
 import LazyImage from './LazyImage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBullseye, faHandshake, faCut, faGraduationCap, faCog, faAward, faHandshakeAlt, faLightbulb, faTools, faStar } from '@fortawesome/free-solid-svg-icons';
 
 
 const AboutUs = () => {
@@ -23,10 +25,28 @@ const AboutUs = () => {
                     </Suspense>
                 </Col>
                 <Col data-aos="fade-right " md={6}>
-                    <p className='text-white lead opacity-75'>
-                        AdvitServices is a dynamic company at the forefront of geospatial technology, staff recruiting, and software services. We specialize in providing innovative solutions tailored to meet the unique needs of our clients across various industries. Our commitment to excellence, coupled with our passion for innovation, drives us to deliver superior results and exceed expectations.
-                        At AdvitServices, we are committed to fostering long-term partnerships with our clients, built on trust, integrity, and a shared commitment to excellence. Whether you're looking to harness the power of geospatial technology, recruit top talent for your organization, or develop custom software solutions, AdvitServices is your trusted partner for success.
-                    </p>
+                        <div>
+                            <FontAwesomeIcon icon={faAward} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            Functional Excellence
+                            </h4>
+                            <p className='lead opacity-75 text-white'>Our relentless pursuit of excellence in every aspect of our operations ensures that we consistently deliver high-quality solutions that exceed expectations and drive tangible results.</p>
+                        </div>
+                        <div>
+                            <FontAwesomeIcon icon={faHandshakeAlt} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            Trust
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>Trust forms the foundation of our relationships with clients, partners, and stakeholders, as we believe in transparency, integrity, and reliability in all our interactions.</p>
+                        </div>
+                        <div>
+                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Support
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>Our dedicated support team is committed to providing timely assistance and resolving any issues or concerns to ensure a seamless experience for our clients throughout their journey with us.</p>
+                        </div>
+
                 </Col>
             </Row>
         </Container>

@@ -10,6 +10,9 @@ import Nis from './NetworkInfrastructure';
 import 'aos/dist/aos.css'; // Import AOS CSS file for styles
 import AOS from 'aos';
 import LazyImage from './LazyImage';
+import { faCertificate, faChartLine, faGlobe, faToolbox, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ImageSkeletonLoader from '../Layouts/Skeleton';
 
 
 const Building = () => {
@@ -32,103 +35,62 @@ const Building = () => {
                                 Revolutionizing Building and Infrastructure Services with Geospatial Technology
                             </h1>
                             <p class="lead container text-capitalize text-white opacity-75">
-                                AdvitServices is at the forefront of transforming traditional building and infrastructure services through the integration of cutting-edge geospatial technology. Our organization excels in providing comprehensive solutions at every stage of the construction lifecycle, from initial planning to ongoing maintenance. Here's how AdvitServices leverages geospatial technology to deliver unparalleled results.
+                                ADV is at the forefront of transforming traditional building and infrastructure services through the integration of cutting-edge geospatial technology. Our organization excels in providing comprehensive solutions at every stage of the construction lifecycle, from initial planning to ongoing maintenance. Here's how ADV leverages geospatial technology to deliver unparalleled results.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
             <Container>
-
-                <Row className="pt-3 ">
-                    <Col data-aos="fade-right" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={softwareServices} />
-                        </Suspense>
-                    </Col>
-                    <Col data-aos="fade-left" lg={6}>
-                        
-                            <div className="pt-4 text-white"><h2 className="text-white">Innovative Work Structure</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices employs a multidisciplinary team of experts, including architects, engineers, geospatial analysts, and project managers, to ensure seamless collaboration and integration of diverse skill sets.
-                                    Our work structure emphasizes the use of advanced geospatial tools and methods throughout the project lifecycle, enabling us to deliver high-quality outcomes efficiently and cost-effectively.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                </Row>
-
-                <Row className="pt-4 ">
-                    <Col data-aos="zoom-out" className='order-2 order-lg-1' lg={6}>
-                        
-                            <div className="pt-4 text-white"><h2 className="text-white">Advanced Methods</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    Leveraging state-of-the-art Building Information Modeling (BIM) software, AdvitServices creates detailed digital representations of construction projects, allowing for enhanced visualization, coordination, and clash detection.
-                                    Our team utilizes geospatial analysis techniques to assess site suitability, analyze environmental impacts, and optimize infrastructure design, ensuring projects meet regulatory requirements and environmental standards.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                    <Col data-aos="zoom-in" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={Mobile} />
-                        </Suspense>
-                    </Col>
-                </Row>
-
-                <Row className="pt-4 pb-3 ">
-                    <Col data-aos="fade-down" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={res} />
-                        </Suspense>
-                    </Col>
-                    <Col data-aos="fade-up" lg={6}>
-
-                        
-                            <div className="pt-4 text-white"><h2 className="text-white">Cutting-Edge Tools</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices harnesses the power of leading geospatial software platforms such as ArcGIS and LiDAR technology to collect and analyze spatial data with unparalleled accuracy and precision.
-                                    We employ advanced surveying equipment, including drones equipped with high-resolution cameras and LiDAR scanners, to capture detailed aerial imagery and 3D terrain models for site assessment and monitoring.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                </Row>
-
-                <Row className="pt-4 pb-3 ">
-                    <Col data-aos="zoom-in" className='order-2 order-lg-1' lg={6}>
-                        
-                            <div className="pt-4 text-white"><h2 className="text-white"> Specialized Skills</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    Our team possesses a diverse range of specialized skills, including proficiency in CAD, BIM, and geospatial software, as well as expertise in project management, regulatory compliance, and environmental analysis.
-                                    AdvitServices places a strong emphasis on continuous training and professional development to ensure our team remains at the forefront of industry trends and best practices.
-                                </p>
-                            </div>
-                        
-                    </Col>
-                    <Col data-aos="zoom-out" className='order-1 order-lg-2' lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <LazyImage src={pms} />
-                        </Suspense>
-                    </Col>
-                </Row>
-
-                <Row className="pt-4 pb-3 ">
-                    <Col data-aos="fade-left" lg={6}>
-                        <Suspense fallback={<div>Loading...</div>}>
+                <Row className="pt-3 mt-3 mb-3 pb-3">
+                    {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
+                    <Col lg={6} data-aos="fade-left">
+                        <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={ilus} />
                         </Suspense>
                     </Col>
-                    <Col data-aos="fade-right" lg={6}>
-
-                        
-                            <div className="pt-4 text-white"><h2 className="text-white">Innovative Technologies by Geospatial</h2>
-                                <p className='lead container text-white opacity-75'>
-                                    AdvitServices leverages Geographic Information Systems (GIS) to analyze spatial data and inform decision-making throughout the project lifecycle, from site selection and feasibility studies to infrastructure planning and asset management.
-                                    We utilize remote sensing techniques, such as satellite imagery and LiDAR scanning, to monitor construction progress, assess environmental impacts, and facilitate informed decision-making.
-                                </p>
-                            </div>
-                        
+                    <Col lg={6} >
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faUsers} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Innovative Work Structure
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>ADV employs a multidisciplinary team of experts, including architects, engineers, geospatial analysts, and project managers, ensuring seamless collaboration and integration of diverse skill sets for high-quality outcomes.</p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faChartLine} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Advanced Methods
+                            </h4>
+                            <p className='lead opacity-75 text-white'>Leveraging state-of-the-art Building Information Modeling (BIM) software, we create detailed digital representations of construction projects, enhancing visualization and coordination. Geospatial analysis techniques assess site suitability, analyze environmental impacts, and optimize infrastructure design.</p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faToolbox} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Cutting-Edge Tools
+                            </h4>
+                            <p className='lead opacity-75 text-white '>
+                                Harnessing leading geospatial software like ArcGIS and LiDAR technology, we collect and analyze spatial data with precision. Advanced surveying equipment, including drones with high-resolution cameras and LiDAR scanners, capture detailed aerial imagery and 3D terrain models for site assessment.
+                            </p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faCertificate} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Specialized Skills
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>
+                                Our team possesses diverse specialized skills in CAD, BIM, geospatial software, project management, regulatory compliance, and environmental analysis. We prioritize continuous training and development to stay ahead in industry trends.
+                            </p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <FontAwesomeIcon icon={faGlobe} size='3x' color='#fff' />
+                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                Innovative Technologies by Geospatial
+                            </h4>
+                            <p className='lead opacity-75 text-white d-'>
+                                ADV leverages Geographic Information Systems (GIS) for spatial data analysis, guiding decision-making throughout the project lifecycle. Remote sensing techniques like satellite imagery and LiDAR scanning monitor construction progress, assess environmental impacts, and facilitate informed decision-making.
+                            </p>
+                        </div>
                     </Col>
                 </Row>
             </Container >

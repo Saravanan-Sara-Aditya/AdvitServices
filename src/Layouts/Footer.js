@@ -59,7 +59,7 @@ const Footer = () => {
                     <div class="container py-3">
                         <div class="row justify-content-center fs-10">
                             <div class="col-12 col-sm-auto text-center">
-                                <p class="mb-0 text-600  opacity-85">Copyrights<span class="d-none d-sm-inline-block"> </span><br class="d-sm-none" /> 2024 © <a class="text-white opacity-85" href="https://themewagon.com">AdvitServices</a></p>
+                                <p class="mb-0 text-600  opacity-85">Copyrights<span class="d-none d-sm-inline-block"> </span><br class="d-sm-none" /> 2024 © <a class="text-white opacity-85" href="https://themewagon.com">ADV - IT Services</a></p>
                             </div>
                         </div>
                     </div>
