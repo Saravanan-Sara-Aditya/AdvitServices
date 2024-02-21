@@ -48,14 +48,14 @@ const WebApplication = () => {
                     </Col>
                     <Row className="pt-3 mt-3 mb-3 pb-3">
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faProjectDiagram} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faProjectDiagram} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                             Strategic Planning and Execution</h4>
                             <p className='lead opacity-75 text-white d-'>Our seasoned team collaborates closely with your designers, content creators, and marketing experts, employing agile methodologies for iterative development cycles aligned with your business objectives.</p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faCode} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faCode} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Cutting-Edge Development Techniques
                             </h4>
                             <p className='lead opacity-75 text-white'>
@@ -63,8 +63,8 @@ const WebApplication = () => {
                             </p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faDesktop} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faDesktop} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Responsive Design and Performance Optimization
                             </h4>
                             <p className='lead opacity-75 text-white '>
@@ -72,8 +72,8 @@ const WebApplication = () => {
                             </p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faShieldAlt} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faShieldAlt} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Comprehensive Support and Security
                             </h4>
                             <p className='lead opacity-75 text-white d-'>
@@ -81,8 +81,8 @@ const WebApplication = () => {
                             </p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faChartLine} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faChartLine} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Insightful Analytics and Reporting
                             </h4>
                             <p className='lead opacity-75 text-white d-'>

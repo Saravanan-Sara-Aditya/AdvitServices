@@ -26,22 +26,22 @@ const AboutUs = () => {
                 </Col>
                 <Col data-aos="fade-right " md={6}>
                         <div>
-                            <FontAwesomeIcon icon={faAward} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faAward} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                             Functional Excellence
                             </h4>
                             <p className='lead opacity-75 text-white'>Our relentless pursuit of excellence in every aspect of our operations ensures that we consistently deliver high-quality solutions that exceed expectations and drive tangible results.</p>
                         </div>
                         <div>
-                            <FontAwesomeIcon icon={faHandshakeAlt} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faHandshakeAlt} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                             Trust
                             </h4>
                             <p className='lead opacity-75 text-white d-'>Trust forms the foundation of our relationships with clients, partners, and stakeholders, as we believe in transparency, integrity, and reliability in all our interactions.</p>
                         </div>
                         <div>
-                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faTools} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Support
                             </h4>
                             <p className='lead opacity-75 text-white d-'>Our dedicated support team is committed to providing timely assistance and resolving any issues or concerns to ensure a seamless experience for our clients throughout their journey with us.</p>

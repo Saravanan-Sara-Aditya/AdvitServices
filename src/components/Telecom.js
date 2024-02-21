@@ -36,29 +36,29 @@ const Telecom = () => {
             <Container>
                 <Row className="pt-3 mt-3 mb-3 pb-3">
                     {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
-                    <Col lg={6} data-aos="fade-left">
+                    <Col lg={6} className='mb-3' data-aos="fade-left">
                         <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={softwareServices} />
                         </Suspense>
                     </Col>
                     <Col lg={6} >
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faSignal} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faSignal} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 5G Networks
                             </h4>
                             <p className='lead opacity-75 text-white d-'>As pioneers in 5G technology, ADV leads the way in delivering next-generation wireless connectivity, offering unparalleled speed, reliability, and low latency for emerging applications and services.</p>
                         </div>
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faNetworkWired} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faNetworkWired} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Software-Defined Networking (SDN)
                             </h4>
                             <p className='lead opacity-75 text-white'>Our SDN-enabled infrastructure empowers dynamic network management, agility, and scalability, enabling us to adapt to evolving customer demands and deliver customized solutions with ease.</p>
                         </div>
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faServer} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faServer} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Network Function Virtualization (NFV)
                             </h4>
                             <p className='lead opacity-75 text-white '>
@@ -66,8 +66,8 @@ const Telecom = () => {
                             </p>
                         </div>
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faWifi} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faWifi} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Internet of Things (IoT)
                             </h4>
                             <p className='lead opacity-75 text-white d-'>

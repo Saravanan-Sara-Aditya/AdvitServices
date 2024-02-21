@@ -29,8 +29,8 @@ const Contact = () => {
                     <p className='lead opacity-75'>Plot no 104, Road no 17, Gayatri Nagar,<br />Hyderabad, 500097.</p>
                     <h2 className='text-white'>USA Office Address</h2>
                     <p className='lead opacity-75'>12495 Summertree Dr,<br />Frisco, TX 75035.</p>
-                    <h5 className='text-white'><FontAwesomeIcon color='#fff'  icon={faEnvelope} flip={true} size='1x'/> info@advitservices.com</h5>
-                    <h5 className='text-white'><FontAwesomeIcon  color='#fff' icon={faPhoneAlt} size='1x' flip={true}  />+91 92931 25210</h5>
+                    <h5 className='text-white'><FontAwesomeIcon color='lightblue'  icon={faEnvelope} flip={true} size='1x'/> info@advitservices.com</h5>
+                    <h5 className='text-white'><FontAwesomeIcon  color='lightblue' icon={faPhoneAlt} size='1x' flip={true}  />+91 92931 25210</h5>
                 </Col>
             </Row>
         </Container>

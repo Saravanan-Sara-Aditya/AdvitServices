@@ -39,29 +39,29 @@ const Home = () => {
                 <Container>
                     <Row className="pt-3">
                         <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1>
-                        <Col lg={6} data-aos="fade-left">
+                        <Col lg={6} className='mb-3' data-aos="fade-left">
                             <Suspense fallback={<ImageSkeletonLoader />}>
                                 <LazyImage src={softwareServices} />
                             </Suspense>
                         </Col>
                         <Col lg={6} data-aos="fade-right">
                             <div>
-                                <FontAwesomeIcon icon={faGraduationCap} size='3x' color='#fff' />
-                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                <FontAwesomeIcon icon={faGraduationCap} size='3x' color='lightblue' />
+                                <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                     Industry Experience
                                 </h4>
                                 <p className='lead opacity-75 text-white d-'>Leveraging years of industry experience and specialized knowledge, our team of experts stays abreast of emerging trends and best practices to provide informed guidance and strategic insights.</p>
                             </div>
                             <div>
-                                <FontAwesomeIcon icon={faLightbulb} size='3x' color='#fff' />
-                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                <FontAwesomeIcon icon={faLightbulb} size='3x' color='lightblue' />
+                                <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                     Innovation:
                                 </h4>
                                 <p className='lead opacity-75 text-white'>Innovation is ingrained in our DNA, driving us to constantly explore new ideas, technologies, and methodologies to stay ahead of the curve and anticipate future market trends.</p>
                             </div>
                             <div>
-                                <FontAwesomeIcon icon={faCog} size='3x' color='#fff' />
-                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                <FontAwesomeIcon icon={faCog} size='3x' color='lightblue' />
+                                <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                     Operational Efficiency:
                                 </h4>
                                 <p className='lead opacity-75 text-white d-'>
@@ -80,29 +80,29 @@ const Home = () => {
                     <Row className="pt-3">
                         <Col data-aos="fade-up" className='order-2 order-lg-1' lg={6}>
                             <div>
-                                <FontAwesomeIcon icon={faBullseye} size='3x' color='#fff' />
-                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                <FontAwesomeIcon icon={faBullseye} size='3x' color='lightblue' />
+                                <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                     Customer Focus:
                                 </h4>
                                 <p className='lead opacity-75 text-white'>We prioritize our customers' needs by proactively engaging with them and providing personalized solutions tailored to their requirements.</p>
                             </div>
                             <div>
-                                <FontAwesomeIcon icon={faHandshake} size='3x' color='#fff' />
-                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                <FontAwesomeIcon icon={faHandshake} size='3x' color='lightblue' />
+                                <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                     Collaboration:
                                 </h4>
                                 <p className='lead opacity-75 text-white d-'>Collaboration is at the heart of our methodology, as we believe in working closely with our clients as integrated partners to achieve mutual success.</p>
                             </div>
                             <div>
-                                <FontAwesomeIcon icon={faStar} size='3x' color='#fff' />
-                                <h4 className='opacity-75 ms-2 text-white d-inline'>
+                                <FontAwesomeIcon icon={faStar} size='3x' color='lightblue' />
+                                <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                     Success:
                                 </h4>
                                 <p className='lead opacity-75 text-white d-'>We measure our success by the achievements of our clients, celebrating their milestones and victories as our own and striving to be catalysts for their continued growth and prosperity.</p>
                             </div>
 
                         </Col>
-                        <Col data-aos="fade-down" className='order-1 order-lg-2' lg={6}>
+                        <Col data-aos="fade-down" className='order-1 mb-3 order-lg-2' lg={6}>
                             <Suspense fallback={<ImageSkeletonLoader />}>
                                 <LazyImage src={Mobile} />
                             </Suspense>

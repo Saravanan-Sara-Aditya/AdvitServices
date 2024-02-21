@@ -42,29 +42,29 @@ const SailPoint = () => {
             <Container>
             <Row className="pt-3 mt-3 mb-3 pb-3">
                     {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
-                    <Col lg={6} data-aos="fade-left">
+                    <Col lg={6} className='mb-3' data-aos="fade-left">
                         <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={softwareServices} />
                         </Suspense>
                     </Col>
                     <Col lg={6} >
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faLightbulb} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faLightbulb} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Strategic Consulting
                             </h4>
                             <p className='lead opacity-75 text-white d-'>Our experienced consultants collaborate closely with clients to understand their unique business objectives and challenges, devising strategic roadmaps for effective SailPoint implementation and optimization.</p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faCog} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faCog} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Implementation and Customization
                             </h4>
                             <p className='lead opacity-75 text-white'>Leveraging deep expertise in SailPoint IdentityNow and IdentityIQ platforms, we execute seamless implementation and customization projects, tailoring SailPoint solutions to meet specific organizational requirements.</p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faBalanceScale} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faBalanceScale} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Governance and Compliance
                             </h4>
                             <p className='lead opacity-75 text-white '>
@@ -72,8 +72,8 @@ const SailPoint = () => {
                             </p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faTools} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Ongoing Maintenance and Support
                             </h4>
                             <p className='lead opacity-75 text-white d-'>
@@ -81,8 +81,8 @@ const SailPoint = () => {
                             </p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faChalkboardTeacher} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faChalkboardTeacher} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Training and Knowledge Transfer
                             </h4>
                             <p className='lead opacity-75 text-white d-'>

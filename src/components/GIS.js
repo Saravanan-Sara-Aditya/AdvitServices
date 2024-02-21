@@ -36,29 +36,29 @@ const Gis = () => {
             <Container>
                 <Row className="pt-3 mt-3 mb-3 ">
                     {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
-                    <Col lg={6} data-aos="fade-left">
+                    <Col lg={6} className='mb-3' data-aos="fade-left">
                         <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={softwareServices} />
                         </Suspense>
                     </Col>
                     <Col lg={6} >
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faProjectDiagram} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faProjectDiagram} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Workflow Structure
                             </h4>
                             <p className='lead opacity-75 text-white d-'>At ADV, our teams collaborate seamlessly, integrating geospatial solutions into clients' projects with experienced GIS analysts, cartographers, data scientists, and software developers.</p>
                         </div>
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faTools} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Handling Techniques
                             </h4>
                             <p className='lead opacity-75 text-white'>Our methodology focuses on efficient data collection, meticulous management, robust spatial analysis, and captivating visualization using traditional surveying, remote sensing, and advanced analytics.</p>
                         </div>
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faCogs} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faCogs} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Advanced Software
                             </h4>
                             <p className='lead opacity-75 text-white d-'>
@@ -66,8 +66,8 @@ const Gis = () => {
                             </p>
                         </div>
                         <div data-aos="fade-right">
-                            <FontAwesomeIcon icon={faTasks} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faTasks} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Performed Activities
                             </h4>
                             <p className='lead opacity-75 text-white d-'>

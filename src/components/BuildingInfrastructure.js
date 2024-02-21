@@ -44,29 +44,29 @@ const Building = () => {
             <Container>
                 <Row className="pt-3 mt-3 mb-3 pb-3">
                     {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
-                    <Col lg={6} data-aos="fade-left">
+                    <Col lg={6}  className='mb-3' data-aos="fade-left">
                         <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={ilus} />
                         </Suspense>
                     </Col>
-                    <Col lg={6} >
+                    <Col className='mb-3' lg={6} >
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faUsers} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faUsers} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Innovative Work Structure
                             </h4>
                             <p className='lead opacity-75 text-white d-'>ADV employs a multidisciplinary team of experts, including architects, engineers, geospatial analysts, and project managers, ensuring seamless collaboration and integration of diverse skill sets for high-quality outcomes.</p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faChartLine} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faChartLine} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Advanced Methods
                             </h4>
                             <p className='lead opacity-75 text-white'>Leveraging state-of-the-art Building Information Modeling (BIM) software, we create detailed digital representations of construction projects, enhancing visualization and coordination. Geospatial analysis techniques assess site suitability, analyze environmental impacts, and optimize infrastructure design.</p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faToolbox} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faToolbox} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Cutting-Edge Tools
                             </h4>
                             <p className='lead opacity-75 text-white '>
@@ -74,8 +74,8 @@ const Building = () => {
                             </p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faCertificate} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faCertificate} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Specialized Skills
                             </h4>
                             <p className='lead opacity-75 text-white d-'>
@@ -83,8 +83,8 @@ const Building = () => {
                             </p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faGlobe} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faGlobe} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Innovative Technologies by Geospatial
                             </h4>
                             <p className='lead opacity-75 text-white d-'>

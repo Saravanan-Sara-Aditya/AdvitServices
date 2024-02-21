@@ -1,6 +1,5 @@
 import React, { Suspense, useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import res from '../assets/images/01petrel.jpg'
 import softwareServices from '../assets/images/rawImage.jpg'
 // import Mobile from '../assets/images/'
 import ana from '../assets/images/sec_com.jpeg'
@@ -41,29 +40,29 @@ const OilGas = () => {
             <Container>
                 <Row className="pt-3 mt-3 mb-3 pb-3">
                     {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
-                    <Col lg={6} data-aos="fade-right">
+                    <Col lg={6} className='mb-3' data-aos="fade-right">
                         <Suspense fallback={<ImageSkeletonLoader />}>
                             <LazyImage src={softwareServices} />
                         </Suspense>
                     </Col>
                     <Col lg={6} >
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faUsers} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faUsers} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                             Expert Work Structure
                             </h4>
                             <p className='lead opacity-75 text-white d-'>Seasoned geospatial professionals collaborate seamlessly with geologists, geophysicists, and engineers for comprehensive analysis throughout projects.</p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faGlobe} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faGlobe} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                             Advanced Methods
                             </h4>
                             <p className='lead opacity-75 text-white'>Using GIS and remote sensing, we provide deep spatial analysis and valuable insights for site selection and environmental monitoring.</p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faToolbox} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faToolbox} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Cutting-Edge Tools
                             </h4>
                             <p className='lead opacity-75 text-white '>
@@ -71,8 +70,8 @@ const OilGas = () => {
                             </p>
                         </div>
                         <div data-aos="fade-left">
-                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faTools} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                             Essential Skills
                             </h4>
                             <p className='lead opacity-75 text-white d-'>

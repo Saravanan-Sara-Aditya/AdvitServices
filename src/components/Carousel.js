@@ -4,6 +4,8 @@ import img02 from "../assets/images/building.jpg"
 import img03 from "../assets/images/Map.jpg"
 import img04 from "../assets/images/og.jpg"
 import img05 from "../assets/images/Utilities.jpeg"
+import img06 from "../assets/images/SoftwareServices.jpg"
+import img07 from "../assets/images/staff_Network.jpg"
 import LazyImage from './LazyImage';
 
 const slides = [
@@ -26,6 +28,14 @@ const slides = [
   {
     image: img05,
     caption: 'Utilities',
+  },
+  {
+    image: img06,
+    caption: 'Software Services',
+  },
+  {
+    image: img07,
+    caption: 'Staff Recruiting ',
   },
 ];
 

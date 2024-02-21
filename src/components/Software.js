@@ -49,8 +49,8 @@ const Java = () => {
                     </Col>
                     <Row className="pt-3 mt-3 mb-3 pb-3" >
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faCogs} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faCogs} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Versatile Development
                             </h4>
                             <p className='lead opacity-75 text-white d-'>
@@ -58,8 +58,8 @@ const Java = () => {
                             </p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faGlobe} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faGlobe} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Cross-Platform Compatibility
                             </h4>
                             <p className='lead opacity-75 text-white'>
@@ -67,16 +67,16 @@ const Java = () => {
                             </p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faClipboardList} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faClipboardList} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Agile Project Management</h4>
                             <p className='lead opacity-75 text-white '>
                                 At ADV, we embrace Agile and Scrum methodologies for project management, ensuring flexibility and adaptability throughout the development lifecycle. Our collaborative approach fosters communication and transparency, delivering high-quality software within stipulated timelines.
                             </p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faCode} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faCode} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Comprehensive Skill Set
                             </h4>
                             <p className='lead opacity-75 text-white d-'>
@@ -84,8 +84,8 @@ const Java = () => {
                             </p>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <FontAwesomeIcon icon={faTools} size='3x' color='#fff' />
-                            <h4 className='opacity-75 ms-2 text-white d-inline'>
+                            <FontAwesomeIcon icon={faTools} size='3x' color='lightblue' />
+                            <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                                 Advanced Tools and Technologies</h4>
                             <p className='lead opacity-75 text-white d-'>
                                 Equipped with industry-leading tools and technologies, we streamline development using IDEs like IntelliJ IDEA and Eclipse, build automation tools such as Apache Maven and Gradle, and version control systems like Git. Testing frameworks like JUnit and Mockito ensure code integrity and collaborative development.

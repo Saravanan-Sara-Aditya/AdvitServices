@@ -67,23 +67,23 @@ const ManPowerServices = () => {
                     </div>
                     <div  className='d-flex flex-wrap justify-content-center'>
                         <div className="text-center p-4">
-                            <FontAwesomeIcon icon={faLightbulb} size={'3x'} color="lightblue" />
+                            <FontAwesomeIcon className='mb-2' icon={faLightbulb} size={'3x'} color="lightblue" />
                             <h3 className='text-white'>Industry Expertise</h3>
                         </div>
                         <div className="text-center p-4">
-                            <FontAwesomeIcon icon={faNetworkWired} size={'3x'} color="lightblue" />
+                            <FontAwesomeIcon className='mb-2' icon={faNetworkWired} size={'3x'} color="lightblue" />
                             <h3 className='text-white'>Extensive Network</h3>
                         </div>
                         <div className="text-center p-4">
-                            <FontAwesomeIcon icon={faCogs} size={'3x'} color="lightblue" />
+                            <FontAwesomeIcon className='mb-2' icon={faCogs} size={'3x'} color="lightblue" />
                             <h3 className='text-white'>Flexible Solution</h3>
                         </div>
                         <div className="text-center p-4">
-                            <FontAwesomeIcon icon={faShieldAlt} size={'3x'} color="lightblue" />
+                            <FontAwesomeIcon className='mb-2' icon={faShieldAlt} size={'3x'} color="lightblue" />
                             <h3 className='text-white'>Quality Assurance</h3>
                         </div>
                         <div className="text-center p-4">
-                            <FontAwesomeIcon icon={faHandshake} size={'3x'} color="lightblue" />
+                            <FontAwesomeIcon className='mb-2' icon={faHandshake} size={'3x'} color="lightblue" />
                             <h3 className='text-white'>Strategic Partnership</h3>
                         </div>
                     </div>

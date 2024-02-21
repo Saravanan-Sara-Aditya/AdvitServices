@@ -42,15 +42,15 @@ const CloudSupport = () => {
       <Container>
         <Row className="pt-3 mt-3 mb-3 pb-3">
           {/* <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">WHAT WE DO</h1> */}
-          <Col lg={6} data-aos="fade-right">
+          <Col lg={6} className='mb-3' data-aos="fade-right">
             <Suspense fallback={<ImageSkeletonLoader />}>
               <LazyImage src={softwareServices} />
             </Suspense>
           </Col>
           <Col lg={6} >
             <div data-aos="fade-left">
-              <FontAwesomeIcon icon={faExpandArrowsAlt} size='3x' color='#fff' />
-              <h4 className='opacity-75 ms-2 text-white d-inline'>
+              <FontAwesomeIcon icon={faExpandArrowsAlt} size='3x' color='lightblue' />
+              <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                 Flexibility and Scalability
               </h4>
               <p className='lead opacity-75 text-white d-'>
@@ -58,8 +58,8 @@ const CloudSupport = () => {
               </p>
             </div>
             <div data-aos="fade-left">
-              <FontAwesomeIcon icon={faDollarSign} size='3x' color='#fff' />
-              <h4 className='opacity-75 ms-2 text-white d-inline'>
+              <FontAwesomeIcon icon={faDollarSign} size='3x' color='lightblue' />
+              <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                 Cost-Efficiency
               </h4>
               <p className='lead opacity-75 text-white'>
@@ -67,8 +67,8 @@ const CloudSupport = () => {
               </p>
             </div>
             <div data-aos="fade-left">
-              <FontAwesomeIcon icon={faServer} size='3x' color='#fff' />
-              <h4 className='opacity-75 ms-2 text-white d-inline'>
+              <FontAwesomeIcon icon={faServer} size='3x' color='lightblue' />
+              <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                 Infrastructure Management
               </h4>
               <p className='lead opacity-75 text-white '>
@@ -76,8 +76,8 @@ const CloudSupport = () => {
               </p>
             </div>
             <div data-aos="fade-left">
-              <FontAwesomeIcon icon={faExchangeAlt} size='3x' color='#fff' />
-              <h4 className='opacity-75 ms-2 text-white d-inline'>
+              <FontAwesomeIcon icon={faExchangeAlt} size='3x' color='lightblue' />
+              <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                 Migration Assistance
               </h4>
               <p className='lead opacity-75 text-white d-'>
@@ -85,8 +85,8 @@ const CloudSupport = () => {
               </p>
             </div>
             <div data-aos="fade-left">
-              <FontAwesomeIcon icon={faShieldAlt} size='3x' color='#fff' />
-              <h4 className='opacity-75 ms-2 text-white d-inline'>
+              <FontAwesomeIcon icon={faShieldAlt} size='3x' color='lightblue' />
+              <h4 className='opacity-75 ms-2 text-white mb-3 d-inline'>
                 Security and Compliance
               </h4>
               <p className='lead opacity-75 text-white d-'>

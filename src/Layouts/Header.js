@@ -20,37 +20,37 @@ function TopNavBar() {
         <Menu style={{ width: "150px" }}>
             <Menu.SubMenu key="2" title="Software">
                 <Menu.Item key="2-1">
-                    <Link to="/Java" onClick={handleMenuItemClick}>Java</Link>
+                    <Link  target="_parent" to="/Java" onClick={handleMenuItemClick}>Java</Link>
                 </Menu.Item>
                 <Menu.Item key="2-2">
-                    <Link to="/Sailpoint" onClick={handleMenuItemClick}>SailPoint Dev & Support</Link>
+                    <Link  target="_parent" to="/Sailpoint" onClick={handleMenuItemClick}>SailPoint Dev & Support</Link>
                 </Menu.Item>
                 <Menu.Item key="2-3">
-                    <Link to="/WebApplicaiton" onClick={handleMenuItemClick}>Web Dev & Support</Link>
+                    <Link  target="_parent" to="/WebApplicaiton" onClick={handleMenuItemClick}>Web Dev & Support</Link>
                 </Menu.Item>
                 <Menu.Item key="2-4">
-                    <Link to="/CloudSupport" onClick={handleMenuItemClick}>Infra Cloud Support</Link>
+                    <Link  target="_parent" to="/CloudSupport" onClick={handleMenuItemClick}>Infra Cloud Support</Link>
                 </Menu.Item>
             </Menu.SubMenu>
             <Menu.SubMenu key="3" title="GeoSpatial">
                 <Menu.Item key="3-1">
-                    <Link to="/GIS&Mapping" onClick={handleMenuItemClick}>GIS & Mapping</Link>
+                    <Link  target="_parent" to="/GIS&Mapping" onClick={handleMenuItemClick}>GIS & Mapping</Link>
                 </Menu.Item>
                 <Menu.Item key="3-2">
-                    <Link to="/Telecommunication" onClick={handleMenuItemClick}>Telecommunication</Link>
+                    <Link  target="_parent" to="/Telecommunication" onClick={handleMenuItemClick}>Telecommunication</Link>
                 </Menu.Item>
                 <Menu.Item key="3-3">
-                    <Link to="/Utilities" onClick={handleMenuItemClick}>Utilities</Link>
+                    <Link  target="_parent" to="/Utilities" onClick={handleMenuItemClick}>Utilities</Link>
                 </Menu.Item>
                 <Menu.Item key="3-4">
-                    <Link to="/OilGas" onClick={handleMenuItemClick}>Oil & Gas</Link>
+                    <Link  target="_parent" to="/OilGas" onClick={handleMenuItemClick}>Oil & Gas</Link>
                 </Menu.Item>
                 <Menu.Item key="3-5">
-                    <Link to="/BuildingInfrastructure" onClick={handleMenuItemClick}>Building Infrastructure</Link>
+                    <Link  target="_parent" to="/BuildingInfrastructure" onClick={handleMenuItemClick}>Building Infrastructure</Link>
                 </Menu.Item>
             </Menu.SubMenu>
             <Menu.Item key="4">
-                <Link to="/ManPower" onClick={handleMenuItemClick}>Staff Recruiting</Link>
+                <Link  target="_parent" to="/ManPower" onClick={handleMenuItemClick}>Staff Recruiting</Link>
             </Menu.Item>
         </Menu>
     );

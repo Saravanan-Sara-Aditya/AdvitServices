@@ -48,7 +48,8 @@ const LazyImage = ({ src, alt }) => {
         };
     }, [src]);
 
-    return <img src={imageSrc || ''} alt={alt} style={{ objectFit: "cover", borderRadius: "10px" }} className="lazy pb-3 w-100 h-100" />;
+    return<img src={imageSrc || ''} alt={alt} style={{ objectFit: "cover", borderRadius: "10px" }} className="lazy w-100 h-100" />
+    
 };
 
 export default LazyImage;
