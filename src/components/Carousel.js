@@ -1,25 +1,33 @@
 import React, { useState, useEffect, Suspense } from 'react';
-import img01 from "../assets/images/Telecom.jpg"
+import img01 from "../assets/images/telecom2.jpg"
 import img02 from "../assets/images/building.jpg"
 import img03 from "../assets/images/Map.jpg"
 import img04 from "../assets/images/og.jpg"
 import img05 from "../assets/images/Utilities.jpeg"
 import img06 from "../assets/images/SoftwareServices.jpg"
-import img07 from "../assets/images/staff_Network.jpg"
+import img07 from "../assets/images/staff.jpg"
 import LazyImage from './LazyImage';
 
 const slides = [
   {
+    image: img03,
+    caption: 'GIS & Mapping',
+  },
+  {
+    image: img06,
+    caption: 'Software Services',
+  },
+  {
+    image: img07,
+    caption: 'Staffing',
+  },
+  {
     image: img01,
-    caption: 'Telecomm',
+    caption: 'Telecommunication',
   },
   {
     image: img02,
     caption: 'Building Infrastructure',
-  },
-  {
-    image: img03,
-    caption: 'GIS & Mapping',
   },
   {
     image: img04,
@@ -28,14 +36,6 @@ const slides = [
   {
     image: img05,
     caption: 'Utilities',
-  },
-  {
-    image: img06,
-    caption: 'Software Services',
-  },
-  {
-    image: img07,
-    caption: 'Staff Recruiting ',
   },
 ];
 

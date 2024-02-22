@@ -24,7 +24,9 @@ import Java from '../components/Software'
 const Router = () => {
     return (
         <div>
+            <div className="">
             <Header />
+            </div>
             <Switch>
                 <Route exact path="/"><Home /></Route>
                 <Route path="/About"><AboutUs /></Route>
